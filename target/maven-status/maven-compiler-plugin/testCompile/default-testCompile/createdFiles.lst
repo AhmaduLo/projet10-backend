@@ -1,1 +1,3 @@
 com\openclassrooms\bobapp\BobappApplicationTests.class
+com\openclassrooms\bobapp\controller\JokeControllerIT.class
+com\openclassrooms\bobapp\controller\JokeControllerTestUnitaire.class
