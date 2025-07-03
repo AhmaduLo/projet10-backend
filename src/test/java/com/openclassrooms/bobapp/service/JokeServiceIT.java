@@ -18,7 +18,7 @@ public class JokeServiceIT {
         // Act
         Joke result = jokeService.getRandomJoke();
 
-        // Assert
+        // Assert.
         assertThat(result).isNotNull();
         assertThat(result.getJoke()).isNotBlank();
         assertThat(result.getResponse()).isNotBlank();
