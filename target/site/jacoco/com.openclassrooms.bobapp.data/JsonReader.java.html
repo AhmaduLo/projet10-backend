@@ -26,17 +26,17 @@ public class JsonReader {
 <span class="fc" id="L26">    }</span>
 
     private static class SingletonHolder {
-<span class="nc" id="L29">        private final static JsonReader instance = new JsonReader();</span>
+<span class="fc" id="L29">        private final static JsonReader instance = new JsonReader();</span>
     }
 
     public static JsonReader getInstance() {
-<span class="nc" id="L33">        return SingletonHolder.instance;</span>
+<span class="fc" id="L33">        return SingletonHolder.instance;</span>
     }
 
     public List&lt;Joke&gt; getJokes() {
-<span class="nc" id="L37">        JsonNode jokeNode = this.jsonFile.get(&quot;jokes&quot;);</span>
-<span class="nc" id="L38">        Joke[] persons = mapper.convertValue(jokeNode, Joke[].class);</span>
-<span class="nc" id="L39">        return Arrays.asList(persons);</span>
+<span class="fc" id="L37">        JsonNode jokeNode = this.jsonFile.get(&quot;jokes&quot;);</span>
+<span class="fc" id="L38">        Joke[] persons = mapper.convertValue(jokeNode, Joke[].class);</span>
+<span class="fc" id="L39">        return Arrays.asList(persons);</span>
     }
 
     private void getJsonFile() throws IOException, URISyntaxException {
@@ -50,4 +50,4 @@ public class JsonReader {
         }
 <span class="fc" id="L51">    }</span>
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

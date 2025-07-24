@@ -1,3 +1,7 @@
-com\openclassrooms\bobapp\BobappApplicationTests.class
+com\openclassrooms\bobapp\data\JsonReaderTest.class
+com\openclassrooms\bobapp\service\JokeServiceIT.class
 com\openclassrooms\bobapp\controller\JokeControllerIT.class
+com\openclassrooms\bobapp\service\JokeServiceTest.class
+com\openclassrooms\bobapp\BobappApplicationTests.class
 com\openclassrooms\bobapp\controller\JokeControllerTestUnitaire.class
+com\openclassrooms\bobapp\data\JsonReaderIT.class
